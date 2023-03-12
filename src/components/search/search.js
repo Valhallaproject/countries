@@ -7,7 +7,6 @@ const search = ({searchTerm, setSearchTerm}) => {
     let value = e.target.value;
     value.length > 1 && setSearchTerm(value);
   };
-  console.log(searchTerm);
 
   return (
     <div className="searchBar">

@@ -6,7 +6,6 @@ import './filter.css'
 
  
 const filter = ({filterRegion, setFilterRegion}) => {
-    console.log(filterRegion);
     return(
         <>
             <label htmlFor="region"></label>

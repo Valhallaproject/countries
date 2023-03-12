@@ -10,7 +10,6 @@ import { Link } from "react-router-dom";
 
 const Cards = ({ filterRegion, searchTerm }) => {
   const [country, setCountry] = useState([]);
-  console.log(filterRegion);
   if(filterRegion === ""){
       filterRegion = "all"
   }
@@ -18,14 +17,12 @@ const Cards = ({ filterRegion, searchTerm }) => {
     searchTerm = ""
 }
   
-  console.log(searchTerm);
   const fetchCountry = async () => {
     await axios
       .get("https://restcountries.com/v2/" + filterRegion )
       .then((response) => {
 
         setCountry(response.data);
-        // console.log(response.data.name.include(searchTerm));
       });
   };
 
