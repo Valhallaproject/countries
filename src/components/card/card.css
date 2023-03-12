@@ -1,0 +1,21 @@
+
+.card{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.card-img-top{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.card-body{
+    background-color: var(--element);
+    padding: 10%;
+    color: var(--text);
+}
+.information p{
+    line-height: 10px;
+}

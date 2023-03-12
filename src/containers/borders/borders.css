@@ -1,0 +1,17 @@
+.borders{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.border{
+    color: var(--text);
+    background-color: var(--element);
+    margin: 5px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1400px){
+    .borders{
+        padding: 0;
+    }
+}

@@ -1,0 +1,110 @@
+.button{
+    padding-top: 70px;
+}
+.back{
+    color: var(--text);
+    text-decoration: none;
+    background-color: var(--element);
+    padding: 10px 25px 10px 25px;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.country{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.countryFlag{
+    width: 45%;
+    height: auto;
+    object-fit: contain;
+}
+.countryFlag img{
+    width: 100%;
+}
+.description{
+    width: 55%;
+    padding-top: 50px;
+}
+.description h1{
+    margin-left:7.5%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.info h3{
+    color: var(--text);
+    margin-left: 15%;
+    margin-bottom: 10px;
+}
+.info span{
+    font-weight: normal;
+}
+.bordersCard{
+    display: flex;
+    margin-top: 40px;
+}
+.bordersCard a{
+    text-decoration: none;
+}
+.bordersCard h3{
+    margin-left: 7.5%;
+    color: var(--text);
+    line-height: 40px;
+}
+.info{
+    display: flex;
+}
+.left, .right{
+    width: 50%;
+    text-align: left;
+}
+
+
+
+@media screen and (max-width: 1400px){ 
+    .country{
+        display: block;
+    }
+    .countryFlag{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .description{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .description h1{
+        margin-left: 0;
+    }
+    .info h3{
+        margin-left: 0;
+    }
+    .borders h3{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .info{
+        display: block;
+    }
+    .left, .right{
+        margin-top: 50px;
+    }
+    .bordersCard{
+        display: block;
+    }
+    .bordersCard h3{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 600px){
+    .countryFlag{
+        width: 90%;
+    }
+    .description{
+        width: 90%;
+    }
+
+}

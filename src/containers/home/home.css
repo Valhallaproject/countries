@@ -1,0 +1,21 @@
+.research{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+.containerCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width:700px){
+    .research{
+        display: block;
+    }
+}

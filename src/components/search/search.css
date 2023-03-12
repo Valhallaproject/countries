@@ -1,0 +1,24 @@
+.searchBar{
+    display: flex;
+    height: 45px;
+}
+.search{
+    border: none;
+    background-color: var(--element);
+    color: var(--text);
+    width: 400px;
+    padding: 10px;
+    border-radius:  0 5px 5px 0 ;
+    
+}
+.logoSearch{
+    background-color: var(--Bg);
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+.logoSearch img{
+    width: 20px;
+}
+.search::placeholder{
+    color: var(--text);
+}

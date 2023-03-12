@@ -1,0 +1,16 @@
+.region{
+    width: 150px;
+    color: var(--text);
+    background-color: var(--element);
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px 0 10px;
+    height: 45px;
+}
+
+@media screen and (max-width:700px){
+    .region{
+        margin-top: 15px;
+
+    }
+}
